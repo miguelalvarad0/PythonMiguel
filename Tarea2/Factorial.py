@@ -17,3 +17,4 @@ def hola(x):
 print("\nCalculadora de Factorial\n")
 num = input("Ingrese un numero natural:")
 hola(num)
+         
