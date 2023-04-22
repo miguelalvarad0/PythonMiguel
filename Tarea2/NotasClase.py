@@ -46,6 +46,9 @@ miDict["nombre"] = sampleDict["class"]["student"]["name"]
 miDict["nota"] = b
 
 #Imprimir en pantalla el nombre del estudiante y su calificación promedio de materias cursadas.
+print("\n")
+print(miDict)
+print("\n")
 print("Nombre:",miDict["nombre"],", Promedio: ",end="")
 print(b)
 print("\n")
