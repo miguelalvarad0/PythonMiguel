@@ -270,6 +270,8 @@ def main():
         os.system('clear')
         main()
     elif select == 2:
+        file11 = open('usuarios.txt','a')
+        file11.close()
         os.system('clear')
         print('ESTADISTICAS\n')
         get_users()
